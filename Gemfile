@@ -58,3 +58,6 @@ group :development do
 end
 
 gem 'hamlit'
+gem "dockerfile-rails", ">= 1.6", :group => :development
+
+gem "pg", "~> 1.5"
